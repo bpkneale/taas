@@ -2,12 +2,12 @@
   "name": "taas",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/src/app.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node .",
-    "test": "jest ./dist"
+    "test": "npm run build && jest ./dist"
   },
   "keywords": [],
   "author": "",

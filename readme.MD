@@ -1,6 +1,11 @@
 # TaaS
 Tennis as a Service
 
-# Run
+# Install
 npm i
+
+# Test
+npm test
+
+# Run
 npm run start
